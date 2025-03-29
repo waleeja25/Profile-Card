@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    background-color: rgb(235, 235, 235);
+}
+
+.container {
+    border: 1px groove rgb(219, 187, 187);   
+    background: linear-gradient(to bottom, rgb(245, 168, 168) 20%, rgb(255, 230, 230) 50%, white 100%);
+    padding: 3%;
+    border-radius: 15px;
+}
+img{
+    border-radius: 150%;
+    height: auto;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    display: block;
+    border: 3px solid rgb(245, 168, 168);
+}
+
+
+h3{
+    text-align: center;
+    margin-top: 1%;
+}
+p{
+    text-align: center;
+    font-size: small;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.social-icons i{
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+    height: 50px;
+    width: 40px;
+    border-radius: 50px;
+    font-size: 25px;
+}
+
+
+.social-icons i:nth-child(1) { color: #0077b5; } 
+.social-icons i:nth-child(2) { color: #1877f2; } 
+.social-icons i:nth-child(3) { color: #000000; } 
+.social-icons i:nth-child(4) { color: #ff0000; } 
+
+button{
+    background-color: lightcoral;
+    color: beige;
+    border: none;
+    outline: none;
+    padding: 3%;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: 5px;
+    height: 35px;
+    width: 80px;
+}
